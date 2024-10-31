@@ -1,0 +1,11 @@
+domaine:
+  - developpement:
+    - Javascript: 1
+    - HTML: 5
+    - PHP: 1
+    - CSS : 5
+    - Python : 3
+  - reseaux:
+    - Gestion de parc: 1
+    - Serveur : 1
+
