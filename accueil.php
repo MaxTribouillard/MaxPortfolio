@@ -17,7 +17,6 @@ echo "<h1> Bienvenue sur le portfolio de ".$data['prenom']."</h1>";
 echo "<p> Je me présente  ".$data['presentation']."</p>";
 echo "<p>"
 
-
 ?>
 
 </body>
