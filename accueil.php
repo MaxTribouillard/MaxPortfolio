@@ -21,24 +21,27 @@
 <div class="navbar">
         <ul class="menu">
             <li><a href="#home">HOME</a></li>
+            <li><a href="#mainTitle">MAX</a></li>
             <li><a href="#aboutus">SKILLS</a></li>
             <li><a href="#blog">WORK</a></li>
             <li><a href="#contact">CONTACT</a></li>
         </ul>
     </div>
-
-
+<!-- <h1 id='mainTitle' class='mainTitle'>Hello &#128516;</h1> -->
+<div class='mainContent'>
 <?php
 
 require_once("yaml/yaml.php");
-$data = yaml_parse_file("yaml/accueil.yaml");
+$homeData = yaml_parse_file("yaml/accueil.yaml");
 
-echo "<h1> Bienvenue sur le portfolio de ".$data['prenom']."</h1>";
-echo "<p> Je me présente  ".$data['presentation']."</p>";
+echo "<h2 class='max'> Salut, moi c'est ".$homeData['prenom']." - Apprenti développeur. &#128187;</h2>";
+echo "<h4>".$homeData['accroche']."<br><br> Je me présente  ".$homeData['presentation']."</h4>";
 echo "<p>"
 
-?>
 
+
+?>
+</div>
 </body>
 </html>
 

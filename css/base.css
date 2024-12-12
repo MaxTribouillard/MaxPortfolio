@@ -1,6 +1,6 @@
 body {
-    background-color: #351258;
-    color: rgb(48, 221, 212);
+    background-color: #110E51;
+    color: #E7ACEC;
     margin: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -10,23 +10,25 @@ html{
   }
   
   html:nth-child(1){
-    cursor: url("resources/img/pizzacursor2.png"), auto;
+    cursor: url("Orange_Arrow_NeonCursor.png"), auto;
   }
   
 
 .background{
     width: 100%;
-    height: auto;
     position: absolute;
     z-index: -2;
     opacity: 90%;
+    /* box-shadow: 0px 10px 40px 1px #E085E5; */
+    border-bottom: solid 2px #8F1DAE;
 }
 
 
 .nameimg {
     display: block;
-    width: 50%;
+    width: 40%;
     margin: auto;
+    padding-top: 50px;
 }
 
 
@@ -45,6 +47,7 @@ html{
     text-decoration: none;
     font-size: 40px;
     opacity: 100%;
+    margin-top: 100px;
 }
 
 li{
@@ -57,4 +60,33 @@ color: #30DDD4;
 
 a {
     color: #30DDD4;
+    cursor: url("Purple_Hand_NeonPointer.png"), auto;
 }
+
+.mainContent {
+    position: relative;
+}
+
+.mainTitle {
+    margin-top: 600px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+/* 
+.mainContent{
+    margin-left: 50px;
+    padding-right: 10%;
+    margin-right: 50%;
+    border-right: solid #8F1DAE 0.5px;
+} */
+
+
+.mainContent{
+    margin-top: 500px;
+    margin-left: 50px;
+    padding-right: 10%;
+    margin-right: 50%;
+    border-right: solid #8F1DAE 2px;
+    padding-top: 100px;
+} 
