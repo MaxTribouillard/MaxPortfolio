@@ -32,7 +32,7 @@
 <?php
 
 require_once("yaml/yaml.php");
-$homeData = yaml_parse_file("yaml/accueil.yaml");
+$homeData = yaml_parse_file("accueil.yaml");
 
 echo "<h2 class='max'> Salut, moi c'est ".$homeData['prenom']." - Apprenti développeur. &#128187;</h2>";
 echo "<h4>".$homeData['accroche']."<br><br> Je me présente  ".$homeData['presentation']."</h4>";
