@@ -1,13 +1,13 @@
-domaine:
-  - developpement:
-    - Javascript: 1
-    - HTML: 5
-    - PHP: 1
-    - CSS : 5
-    - Python : 3
-
-  - langues:
-    - Anglais: 3
-    - Francais: 5
+dev:
+  - name: HTML
+    level: 80
+  - name: CSS
+    level: 60
+  - name: JavaScript
+    level: 30
+  - name: PHP
+    level: 30
+  - name: Python
+    level: 50
     
 

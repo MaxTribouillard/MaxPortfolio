@@ -38,7 +38,7 @@ html{
 } */
 
 .menu {
-     font-family: "Squada One", sans-serif;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -48,10 +48,21 @@ html{
     font-size: 40px;
     opacity: 100%;
     margin-top: 100px;
+
+}
+
+ul{
+    
 }
 
 li{
     padding: 0px 100px;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+li:hover{
+    font-size: 50px;
 }
 
 a:visited {
@@ -63,16 +74,21 @@ a {
     cursor: url("Purple_Hand_NeonPointer.png"), auto;
 }
 
-.mainContent {
+/* .mainContent {
     position: relative;
-}
+} */
 
 .mainTitle {
     margin-top: 600px;
     display: flex;
     justify-content: center;
     font-size: 50px;
+    border-bottom: solid white 1px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 20px;
 }
+
 /* 
 .mainContent{
     margin-left: 50px;
@@ -82,11 +98,84 @@ a {
 } */
 
 
-.mainContent{
-    margin-top: 500px;
-    margin-left: 50px;
-    padding-right: 10%;
-    margin-right: 50%;
-    border-right: solid #8F1DAE 2px;
-    padding-top: 100px;
-} 
+/* .mainContent{
+    display: flex;
+    flex-direction: column;
+}  */
+
+.max{
+    margin: 0px 400px;
+    justify-content: center;
+    display: flex;
+}
+
+.presentation{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+/* #presentation{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+} */
+
+
+.skillsTitle{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    border-bottom: solid white 1px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-bottom: 20px;
+}
+
+.skillbar-container {
+    margin: 10px 200px;
+  }
+  
+  .skillbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .skillbar-name {
+    width: 20%;
+    font-weight: bold;
+    color: #E7ACEC;
+  }
+  
+  .skillbar-bar {
+    width: 75%;
+    background: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .skillbar-fill {
+    background: linear-gradient(90deg, rgba(231,172,236,1) 0%, rgba(231,172,236,1) 35%, rgba(0,212,255,1) 100%);
+    height: 100%;
+    width: 0; /* Par défaut */
+    border-radius: 10px;
+    animation: fill-bar 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes fill-bar {
+    from {
+      width: 0;
+    }
+    to {
+      width: var(--skill-level, 0%);
+    }
+  }
