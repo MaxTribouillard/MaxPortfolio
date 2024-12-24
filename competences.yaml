@@ -8,6 +8,10 @@ dev:
   - name: PHP
     level: 30
   - name: Python
+    level: 40
+  - name: GitHub
     level: 50
+  - name: Anglais
+    level: 80
     
 
